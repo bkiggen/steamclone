@@ -18,11 +18,13 @@
   width: 500px;
   justify-content: space-between;
   a {
-    @include links(white);
+    @include links($textGrey, 12px);
   }
 }
 
 .right-header {
+  width: 250px;
+  margin-top: 7px;
   button {
     @include buttons;
     padding: 0;
@@ -34,6 +36,6 @@
     background-color: $darkGreen;
   }
   a {
-    @include links(white);
+    @include links($textGrey, 10px);
   }
 }
