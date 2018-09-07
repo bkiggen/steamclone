@@ -1,0 +1,35 @@
+$lightBlue: #c6d4df;
+$darkBlue: #2a475e;
+$black: rgb(23, 26, 33);
+$grey: rgb(198, 212, 223);
+
+//mixins
+@mixin flex {
+  display: flex;
+}
+
+@mixin grid($flex) {
+  @if $flex {
+    @include flex;
+  } @else {
+    display: block;
+  }
+}
+
+@mixin column {
+  flex-direction: column;
+}
+
+@mixin automargin {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin links($color)  {
+  text-decoration: none;
+  color: $color;
+  font-size: 12px;
+  margin-right: 7px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}

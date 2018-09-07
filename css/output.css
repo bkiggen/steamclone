@@ -1,0 +1,35 @@
+.header-container {
+  height: 104px;
+  background-color: #171a21;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  width: 500px;
+  justify-content: space-between;
+}
+.left-header a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-right: 7px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: #2a475e;
+  font-family: "Duru Sans", sans-serif;
+  margin: 0;
+}
+
+/*# sourceMappingURL=output.css.map */

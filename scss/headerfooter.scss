@@ -1,0 +1,22 @@
+.header-container {
+  height: 104px;
+  background-color: $black;
+  color: white;
+}
+
+.header {
+  @include grid(true);
+  justify-content: space-between;
+  height: 100%;
+}
+
+.left-header {
+  @include grid(true);
+  align-items: center;
+  padding-left: 20px;
+  width: 500px;
+  justify-content: space-between;
+  a {
+    @include links(white);
+  }
+}
