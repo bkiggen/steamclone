@@ -1,12 +1,77 @@
+// * {
+//   border: 1px solid red;
+// }
+
 body {
   background-color: $darkBlue;
   font-family: 'Duru Sans', sans-serif;
   margin: 0;
 }
 
-
 .main {
   @include width($mainwidth);
   @include automargin;
-  background-color: green;
+  color: $textGrey;
+}
+
+.featured {
+  @include grid(true);
+  width: 100%;
+  height: 350px;
+  box-shadow: 2px 0px 9px black;
+}
+
+.featured-detail {
+  @include grid(true);
+  @include column;
+  justify-content: space-between;
+  background-image: url("img/background_spotlight.jpg");
+  background-color: $black;
+}
+
+.tomb-title {
+  padding-left: 10px;
+
+}
+
+.feature-images-small {
+  @include grid(true);
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  justify-content: center;
+  img {
+    margin: 3px 3px;
+    width: 160px;
+    height: 70px;
+  }
+}
+
+.tomb-bottom {
+  @include grid(true);
+  @include column;
+  padding-left: 10px;
+  .bottom-text {
+    height: 50px;
+    @include grid(true);
+    justify-content: space-between;
+    padding-right: 10px;
+  }
+}
+
+.special {
+  @include grid(true);
+  width: 100%;
+  height: 350px;
+}
+
+.special1 {
+
+}
+
+.special2 {
+
+}
+
+.special3 {
+
 }

@@ -23,7 +23,7 @@
 }
 .left-header a {
   text-decoration: none;
-  color: #b8b6b4;
+  color: #F5F5F5;
   font-size: 12px;
   margin-right: 7px;
   font-weight: lighter;
@@ -48,7 +48,7 @@
 }
 .right-header a {
   text-decoration: none;
-  color: #b8b6b4;
+  color: #F5F5F5;
   font-size: 10px;
   margin-right: 7px;
   font-weight: lighter;
@@ -74,7 +74,56 @@ body {
   width: 950px;
   margin-left: auto;
   margin-right: auto;
-  background-color: green;
+  color: #F5F5F5;
+}
+
+.featured {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  box-shadow: 2px 0px 9px black;
+}
+
+.featured-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("img/background_spotlight.jpg");
+  background-color: #171a21;
+}
+
+.tomb-title {
+  padding-left: 10px;
+}
+
+.feature-images-small {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.feature-images-small img {
+  margin: 3px 3px;
+  width: 160px;
+  height: 70px;
+}
+
+.tomb-bottom {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.tomb-bottom .bottom-text {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.special {
+  display: flex;
+  width: 100%;
+  height: 350px;
 }
 
 /*# sourceMappingURL=output.css.map */
