@@ -4,8 +4,14 @@ $black: rgb(23, 26, 33);
 $grey: rgb(198, 212, 223);
 $darkGreen: #5c7e10;
 $textGrey: #b8b6b4;
+$mainwidth: 950px;
 
-//mixins
+// mixins
+@mixin width($width) {
+  min-width: $width;
+  width: $width;
+}
+
 @mixin flex {
   display: flex;
 }

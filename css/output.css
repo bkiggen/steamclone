@@ -5,7 +5,11 @@
 }
 
 .header {
+  min-width: 950px;
+  width: 950px;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: space-between;
   height: 100%;
 }
@@ -51,10 +55,26 @@
   letter-spacing: 1px;
 }
 
+footer {
+  min-width: 950px;
+  width: 950px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   background-color: #2a475e;
   font-family: "Duru Sans", sans-serif;
   margin: 0;
+}
+
+.main {
+  min-width: 950px;
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green;
 }
 
 /*# sourceMappingURL=output.css.map */

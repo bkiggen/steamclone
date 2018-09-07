@@ -3,3 +3,10 @@ body {
   font-family: 'Duru Sans', sans-serif;
   margin: 0;
 }
+
+
+.main {
+  @include width($mainwidth);
+  @include automargin;
+  background-color: green;
+}

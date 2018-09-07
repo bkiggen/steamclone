@@ -6,7 +6,9 @@
 
 
 .header {
+  @include width($mainwidth);
   @include grid(true);
+  @include automargin;
   justify-content: space-between;
   height: 100%;
 }
@@ -38,4 +40,10 @@
   a {
     @include links($textGrey, 10px);
   }
+}
+
+footer {
+  @include width($mainwidth);
+  @include grid(true);
+  @include automargin;
 }
