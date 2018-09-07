@@ -26,6 +26,27 @@
   letter-spacing: 1px;
 }
 
+.right-header button {
+  padding: 0;
+  border: none;
+  background: none;
+  padding: 0;
+  border: none;
+  background: none;
+  height: 25px;
+  width: 110px;
+  font-size: 11px;
+  background-color: #5c7e10;
+}
+.right-header a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-right: 7px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
 body {
   background-color: #2a475e;
   font-family: "Duru Sans", sans-serif;
