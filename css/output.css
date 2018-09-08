@@ -123,7 +123,37 @@ body {
 .special {
   display: flex;
   width: 100%;
-  height: 350px;
+  height: 380px;
+  justify-content: space-between;
+}
+.special .special-image {
+  width: 100%;
+  height: 260px;
+}
+.special h5 {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.special p {
+  font-size: 10px;
+  padding-left: 10px;
+}
+.special .price {
+  padding-left: 10px;
+}
+
+.special1 {
+  background-image: url("https://store.steampowered.com/public/images/v6/home/background_spotlight.jpg");
+}
+
+.special3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.special3-1 {
+  background-image: url("https://store.steampowered.com/public/images/v6/home/background_spotlight.jpg");
 }
 
 /*# sourceMappingURL=output.css.map */

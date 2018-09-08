@@ -11,6 +11,10 @@ $mainwidth: 950px;
   width: $width;
 }
 
+@mixin slateBG {
+  background-image: url( 'https://store.steampowered.com/public/images/v6/home/background_spotlight.jpg');
+}
+
 @mixin flex {
   display: flex;
 }
