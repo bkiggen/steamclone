@@ -92,4 +92,9 @@ body {
 
 .special3-1 {
   @include slateBG;
+  height: 185px;
+  .price {
+    float:right;
+    padding-right: 10px;
+  }
 }

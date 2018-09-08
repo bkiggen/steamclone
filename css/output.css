@@ -154,6 +154,11 @@ body {
 
 .special3-1 {
   background-image: url("https://store.steampowered.com/public/images/v6/home/background_spotlight.jpg");
+  height: 185px;
+}
+.special3-1 .price {
+  float: right;
+  padding-right: 10px;
 }
 
 /*# sourceMappingURL=output.css.map */
