@@ -42,8 +42,41 @@
   }
 }
 
-footer {
+.recommendations-container {
+  width: 100%;
+  background-color: $black;
+}
+
+.recommendations {
   @include width($mainwidth);
+  @include column;
   @include grid(true);
   @include automargin;
+  background-color: $black;
+  text-align: center;
+  h1 {
+    color: $funBlue;
+  }
+  h4 {
+    color: darken($textGrey, 20%);
+  }
+  .bold {
+    color: white;
+    font-weight: bolder;
+  }
+  button {
+    @include buttons;
+    padding: 0;
+    border: none;
+    border-radius: 1px;
+    background: none;
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+    background: linear-gradient(#799905, #536904);
+    color: #D2E885;
+    @include automargin;
+    text-shadow: 0px 0px 1px yellow;
+    box-shadow: 0px 0px 1px yellow;
+  }
 }

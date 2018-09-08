@@ -55,12 +55,48 @@
   letter-spacing: 1px;
 }
 
-footer {
+.recommendations-container {
+  width: 100%;
+  background-color: #171a21;
+}
+
+.recommendations {
   min-width: 950px;
   width: 950px;
+  flex-direction: column;
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  background-color: #171a21;
+  text-align: center;
+}
+.recommendations h1 {
+  color: #67c1f5;
+}
+.recommendations h4 {
+  color: #c2c2c2;
+}
+.recommendations .bold {
+  color: white;
+  font-weight: bolder;
+}
+.recommendations button {
+  padding: 0;
+  border: none;
+  background: none;
+  padding: 0;
+  border: none;
+  border-radius: 1px;
+  background: none;
+  height: 30px;
+  width: 80px;
+  font-size: 15px;
+  background: linear-gradient(#799905, #536904);
+  color: #D2E885;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0px 0px 1px yellow;
+  box-shadow: 0px 0px 1px yellow;
 }
 
 body {
