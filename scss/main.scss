@@ -127,8 +127,22 @@ body {
   .free {
     display:none;
   }
+
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 640px) {
 
+}
+
+@media only screen and (max-width: 450px) {
+  .featured {
+    display: none;
+  }
+  .special {
+    display: block;
+  }
+  .main {
+    margin-bottom: 20px;
+    display: block;
+  }
 }

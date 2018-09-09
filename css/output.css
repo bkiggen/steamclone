@@ -295,5 +295,19 @@ body {
     display: none;
   }
 }
+@media only screen and (max-width: 450px) {
+  .featured {
+    display: none;
+  }
+
+  .special {
+    display: block;
+  }
+
+  .main {
+    margin-bottom: 20px;
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=output.css.map */
