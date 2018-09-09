@@ -11,6 +11,10 @@
   @include automargin;
   justify-content: space-between;
   height: 100%;
+  a:hover {
+    color: $funBlue;
+  }
+
 }
 
 .left-header {
@@ -22,6 +26,7 @@
   a {
     @include links($textGrey, 12px);
   }
+
 }
 
 .right-header {
@@ -47,7 +52,7 @@
   background-color: $black;
 }
 
-.recommendations {
+.recommendations, {
   @include width($mainwidth);
   @include column;
   @include grid(true);
@@ -79,4 +84,33 @@
     text-shadow: 0px 0px 1px yellow;
     box-shadow: 0px 0px 1px yellow;
   }
+}
+
+.legal {
+  @include width($mainwidth);
+  @include column;
+  @include grid(true);
+  @include automargin;
+  a{
+    text-decoration: none;
+    color: $textGrey;
+    margin: 5px;
+    font-size: 12px;
+  }
+  a:hover {
+    color: $funBlue;
+  }
+  hr {
+    width: 100%;
+  }
+}
+
+.legal-top {
+  @include grid(true);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.legal-bottom {
+  text-align: center;
 }
