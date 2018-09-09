@@ -146,9 +146,19 @@ footer hr {
     margin-right: auto;
   }
 
-  .recommendations-container, footer, .legal-container, .header-container, .header, .legal-top, .legal-bottom {
+  .legal, .recommendations, .recommendations-container, .header {
     width: 100%;
     min-width: 100%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .header-links {
+    display: none;
+  }
+
+  .left-header img {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 body {

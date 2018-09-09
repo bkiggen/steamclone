@@ -128,8 +128,18 @@ footer {
   .left-header {
     @include automargin;
   }
-  .recommendations-container, footer, .legal-container, .header-container, .header, .legal-top, .legal-bottom {
+
+  .legal, .recommendations, .recommendations-container, .header{
     width: 100%;
     min-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .header-links {
+    display:none;
+  }
+  .left-header img {
+    @include automargin;
   }
 }
