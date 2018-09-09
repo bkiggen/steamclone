@@ -58,6 +58,10 @@
   letter-spacing: 1px;
 }
 
+footer hr {
+  width: 90%;
+}
+
 .recommendations-container {
   width: 100%;
   background-color: #171a21;
@@ -119,9 +123,6 @@
 .legal a:hover {
   color: #67c1f5;
 }
-.legal hr {
-  width: 100%;
-}
 
 .legal-top {
   display: flex;
@@ -135,6 +136,21 @@
   padding-bottom: 20px;
 }
 
+@media only screen and (max-width: 990px) {
+  .right-header {
+    display: none;
+  }
+
+  .left-header {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .recommendations-container, footer, .legal-container, .header-container, .header, .legal-top, .legal-bottom {
+    width: 100%;
+    min-width: 100%;
+  }
+}
 body {
   background-color: #2a475e;
   font-family: "Duru Sans", sans-serif;
@@ -257,11 +273,15 @@ body {
     justify-content: center;
   }
 
+  .special1 {
+    margin: 5px;
+  }
+
   .special3 {
     display: none;
   }
 
-  .free:nth-child(3) {
+  .free {
     display: none;
   }
 }

@@ -47,12 +47,18 @@
   }
 }
 
+footer {
+  hr {
+    width: 90%;
+  }
+}
+
 .recommendations-container {
   width: 100%;
   background-color: $black;
 }
 
-.recommendations, {
+.recommendations {
   @include width($mainwidth);
   @include column;
   @include grid(true);
@@ -100,9 +106,7 @@
   a:hover {
     color: $funBlue;
   }
-  hr {
-    width: 100%;
-  }
+
 }
 
 .legal-top {
@@ -115,4 +119,17 @@
 .legal-bottom {
   text-align: center;
   padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 990px) {
+  .right-header {
+    display: none;
+  }
+  .left-header {
+    @include automargin;
+  }
+  .recommendations-container, footer, .legal-container, .header-container, .header, .legal-top, .legal-bottom {
+    width: 100%;
+    min-width: 100%;
+  }
 }

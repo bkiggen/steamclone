@@ -118,10 +118,13 @@ body {
   .special {
     justify-content: center;
   }
+  .special1 {
+    margin: 5px;
+  }
   .special3 {
     display: none;
   }
-  .free:nth-child(3) {
+  .free {
     display:none;
   }
 }
