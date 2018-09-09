@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is unit 2.1's Friday project, a clone of any flex-based-layout site that we fequent. I chose Steam as I thought it would present good layout challenges._
+_This is unit 2.1's Friday project, a clone of any flex-based-layout site that we fequent._
 
 ![Original Steam Site](img/steam-screenshot.PNG)
 ![Steam Site Clone](img/clonescreenshot.PNG)

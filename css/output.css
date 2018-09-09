@@ -167,6 +167,74 @@ body {
   margin: 0;
 }
 
+.banner {
+  width: 100%;
+  height: 340px;
+  background-color: white;
+  text-align: center;
+  border: 1px solid red;
+  position: relative;
+}
+
+.banner img {
+  height: 340px;
+  width: 940px;
+  max-width: 940px;
+  margin: 0px auto;
+}
+
+.navbar {
+  height: 45px;
+  min-width: 950px;
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: absolute;
+  display: space-between;
+  top: 10px;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: rgba(42, 71, 94, 0.8);
+  box-shadow: 0px 0px 1px 1px #c6d4df;
+}
+
+.nav-item-container {
+  display: flex;
+  margin-right: 200px;
+}
+
+.nav-item {
+  height: 100%;
+  width: auto;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-item button {
+  padding: 0;
+  border: none;
+  background: none;
+  height: 100%;
+  border-right: 0.5px solid black;
+  padding: 15px;
+}
+
+.nav-search {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-search input {
+  height: 70%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-style: italic;
+  font-size: 14px;
+}
+
 .main {
   min-width: 950px;
   width: 950px;
