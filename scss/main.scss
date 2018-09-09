@@ -101,12 +101,27 @@ body {
 }
 
 @media only screen and (max-width: 990px) {
+  .main {
+    width:100%;
+    min-width: 100%;
+    h3 {
+      text-align: center;
+    }
+  }
   .featured-detail {
     display: none;
   }
   .featured {
     width: 614px;
     @include automargin;
-
+  }
+  .special {
+    justify-content: center;
+  }
+  .special3 {
+    display: none;
+  }
+  .free:nth-child(3) {
+    display:none;
   }
 }
