@@ -63,6 +63,7 @@ body {
   width: 100%;
   height: 380px;
   justify-content: space-between;
+  margin-bottom: 20px;
   .special-image {
     width: 100%;
     height: 260px;
@@ -96,5 +97,16 @@ body {
   .price {
     float:right;
     padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .featured-detail {
+    display: none;
+  }
+  .featured {
+    width: 614px;
+    @include automargin;
+
   }
 }
