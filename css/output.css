@@ -149,6 +149,7 @@ footer hr {
   .legal, .recommendations, .recommendations-container, .header {
     width: 100%;
     min-width: 100%;
+    max-width: 100%;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -335,6 +336,10 @@ body {
   }
   .main h3 {
     text-align: center;
+  }
+
+  .banner {
+    display: none;
   }
 
   .featured-detail {

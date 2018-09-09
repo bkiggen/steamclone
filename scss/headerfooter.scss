@@ -132,6 +132,7 @@ footer {
   .legal, .recommendations, .recommendations-container, .header{
     width: 100%;
     min-width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -142,8 +143,4 @@ footer {
   .left-header img {
     @include automargin;
   }
-}
-
-@media only screen and (max-width: 450px) {
-
 }

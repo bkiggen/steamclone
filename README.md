@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is unit 2.1's Friday project, a clone of any flex-based-layout site that we fequent._
+_This is unit 2.1's Friday project, a clone of any flex-based-layout site that we fequent. The expectation was to build this site within 8 hours, so it is not 100% faithful but captures the basic layout and responsiveness of the original._
 
 ![Original Steam Site](img/steam-screenshot.PNG)
 ![Steam Site Clone](img/clonescreenshot.PNG)
@@ -24,6 +24,8 @@ Download it @ https://github.com/bkiggen/steamclone
 
 _For inquiries, issues, or contributions, please contact Ben Kiggen at benkiggen@gmail.com_
 
+##Known Bugs
+
 ## Technologies Used
 
 _This software was created using HTML, CSS, javascript, and jQuery
@@ -31,8 +33,6 @@ _
 
 ### License
 
-*
-License:
-MIT license*
+*License: MIT license*
 
 Copyright (c) 2016 **_Ben Kiggen_**
