@@ -14,7 +14,6 @@ body {
   height: 340px;
   background-color: white;
   text-align: center;
-  border: 1px solid red;
   position: relative;
 }
 .banner img{
@@ -71,8 +70,6 @@ body {
     font-size: 14px;
   }
 }
-
-
 
 .main {
   @include width($mainwidth);
