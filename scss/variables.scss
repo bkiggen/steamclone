@@ -10,6 +10,7 @@ $mainwidth: 950px;
 @mixin width($width) {
   min-width: $width;
   width: $width;
+  max-width: $width;
 }
 
 @mixin slateBG {
