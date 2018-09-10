@@ -269,6 +269,9 @@ body {
   display: block;
   padding-left: 20px;
 }
+.sidebar a:hover {
+  color: white;
+}
 
 .main {
   float: left;
